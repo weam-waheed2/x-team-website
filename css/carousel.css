@@ -1,0 +1,96 @@
+.gallery {
+  width: 100%;
+}
+
+.gallery-container {
+  align-items: center;
+  display: flex;
+  height: 400px;
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+}
+
+.gallery-item {
+  height: 150px;
+  opacity: .4;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  width: 150px;
+  z-index: 0;
+}
+
+.gallery-item.gallery-item-selected {
+  height: 300px;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  z-index: 2;
+}
+
+.gallery-item.gallery-item-previous,
+.gallery-item.gallery-item-next {
+  height: 200px;
+  opacity: 1;
+  width: 200px;
+  z-index: 1;
+}
+
+.gallery-item.gallery-item-previous {
+  left: 30%;
+  transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-next {
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-first {
+  left: 15%;
+  transform: translateX(-50%);
+}
+
+.gallery-item.gallery-item-last {
+  left: 85%;
+  transform: translateX(-50%);
+}
+
+.gallery-controls {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.gallery-controls button {
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 20px;
+  padding: 8px 30px;
+  text-transform: capitalize;
+  border-radius:30px;
+  background-color: #02d302;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.gallery-controls button:hover {
+  background-color: white;
+  transition: 0.8s;
+  color: black;
+}
+
+.gallery-controls button:focus {
+  outline: none;
+}
+
+.gallery-controls-previous {
+  position: relative;
+}
+
+
+.gallery-controls-next {
+  position: relative;
+}

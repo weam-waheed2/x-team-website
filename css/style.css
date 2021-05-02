@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Acme;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1c1b20;
+}
+.button-up{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    padding-right: 20px;
+}
+.btn-up{
+    color: white;
+    opacity: 0.3;
+}
+.btn-up:hover{
+    color: white;
+    opacity: 0.6;
+    transition: 0.8s;
+}
+
+/*navbar*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color:  #00ff01;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    text-shadow:2px 2px 6px black;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:  #00ff01;
+    transition: 0.8s;
+}
+#name img{
+    width: 10%;
+}
+.navbar-dark .navbar-toggler {
+    margin-top: 27px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*header*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.header{
+    background: url(../image/Banner\ 1\ BG.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#rgba1{
+    background: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+.text-header{
+    padding-top: 15%;
+    margin-right: 60%;
+    text-align: center;
+    text-shadow:2px 2px 6px black;
+}
+.text-header p{
+    color: white;
+    font-size: 40px;
+}
+.text-header span{
+    color:  #00ff01;
+    font-size: 50px;
+}
+.btn-header{
+    border: 2px white solid;
+    border-radius: 30px;
+    background-color:  #01e001;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.336);
+    color: white;
+}
+.btn-header:hover{
+    background-color:  white;
+    color: black;
+    transition: 0.8s;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/*sec1*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.sec1{
+    background-image: url(../image/Sericve\ section\ background.png);
+    padding-top: 50px;
+    text-align: end;
+}
+.text-sec1{
+    text-align: start;
+    color: white;
+}
+.text-sec1 span{
+    color: #00ff01;
+}
+.text-sec1-1 h2{
+    color: #00ff01;
+}
+.text-sec1-2{
+    color: white;
+}
+.text-sec1-2 h3{
+    color: black;
+    font-weight: 800;
+}
+.pa-1{
+    color: rgb(182, 181, 181);
+    font-size: 18px;
+}
+.pa-2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: start;
+}
+#sec{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.card1{
+    background-color: rgb(121, 121, 121);
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.555);
+    padding: 20px;
+}
+.card1:hover{
+    background-color:  #03da03;
+    border-radius: 7px;
+    padding: 20px;
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*sec2*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.sec2{
+    padding-bottom: 80px;
+}
+.ho{
+    color: #00ff01;
+}
+.po{
+    color: white;
+    font-size: 19px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec2 button{
+    background-color: green;
+    box-shadow: 2px 2px 3px white , -2px -2px 3px white;
+    border: none;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*sec3*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.sec3 img{
+    border:2px white solid;
+    border-radius: 10px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*sec4*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.sec4{
+    background: url(../image/Contact-us-Background.jpg);
+    background-size: cover;
+}
+.card2{
+    background-color: #04d604;
+    border-radius: 7px;
+    padding: 20px;
+    width: 65%;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.616) , -2px -2px 3px rgba(255, 255, 255, 0.616);
+}
+.text-sec4{
+    color: white;
+}
+.text-sec4 p{
+    color: rgb(231, 229, 229);
+}
+.bg-success{
+    border: none;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*sec5*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.sec5{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.sec5 .one a{
+    text-decoration: none;
+    color: #00ff01;
+}
+.sec5 .one a:hover{
+    color: white;
+    transition: 0.9s;
+}
+.sec5 .two a{
+    text-decoration: none;
+    color: white;
+}
+.sec5 .two a:hover{
+    color: #00ff01;
+    transition: 0.9s;
+}
+.sec5 span{
+    color: #00ff01;
+}
+.sec5 h4{
+    color: white;
+}
+.sec5 p{
+    color: rgb(228, 228, 228);
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 10px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*footer*/
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+.hr{
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    border: none;
+}
+.footer h4{
+    color: white;
+}
+.footer h4 span{
+    color: #00ff01;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media only screen and (max-width:768px) {
+    .text-header{
+        padding-top: 35%;
+        text-align: start;
+        text-shadow: 2px 2px 3px black;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        position: relative;
+    }
+    .btn-header{
+        height: auto;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sec1{
+        padding: 0;
+        margin: 0;
+    }
+    .text-sec1 h2{
+        text-align: center;
+    }
+    .text-sec1 p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .text-sec1-2{
+        text-align: center;
+    }
+    .card1{
+        transform: scale(1.1);
+    }
+    .card1 h3{
+        font-size: 35px;
+    }
+    .card1 img{
+        width: 40%;
+    }
+    .text-sec1-1{
+        text-align: start;
+    }
+    .who{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .pa-2{
+        text-shadow: 2px 2px 3px black;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .imgteam{
+        width: 100%; 
+    }
+
+    .logo{
+        width: 40%;
+    }
+    .one{
+        font-size: 20px;
+    }
+    .cotntact{
+        font-size: 20px;
+    }
+
+    .sec5{
+        padding: 0;
+        margin: 0;
+    }
+    .sec5 .pa5{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .logo1{
+        width: 40%;
+    }
+    .card2{
+        width: 100%;
+        text-align: center;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    .bg-success {
+        background-color: #ffffff!important;
+    }
+    #name img{
+        width: 61%;
+        padding-left: 125px;
+    }
+    .navbar .nav-link{
+        text-align: center;
+    }
+}
+/* .no-js #loader { 
+    display: none;  
+}
+.js #loader { 
+    display: block; position: absolute; left: 100px; top: 0;
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+    z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+} */
