@@ -285,7 +285,7 @@ body{
 
 @media only screen and (max-width:768px) {
     .text-header{
-        padding-top: 35%;
+        padding-top: 45%;
         text-align: start;
         text-shadow: 2px 2px 3px black;
         width: 100%;
@@ -375,8 +375,8 @@ body{
         background-color: #ffffff!important;
     }
     #name img{
-        width: 61%;
-        padding-left: 125px;
+        width:25%;
+        /* padding-left: 125px; */
     }
     .navbar .nav-link{
         text-align: center;
